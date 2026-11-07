@@ -1,0 +1,6 @@
+project      = "demo"
+aws_region   = "ap-southeast-1"
+environment  = "prod"
+stack_name   = "20-security"
+state_bucket = "demo-tfstate-CHANGE_ME-ap-southeast-1"
+state_region = "ap-southeast-1"

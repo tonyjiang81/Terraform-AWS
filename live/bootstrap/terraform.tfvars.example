@@ -1,0 +1,4 @@
+aws_region        = "ap-southeast-1"
+project           = "demo"
+state_bucket_name = "demo-tfstate-123456789012-ap-southeast-1"
+lock_table_name   = "terraform-state-locks"

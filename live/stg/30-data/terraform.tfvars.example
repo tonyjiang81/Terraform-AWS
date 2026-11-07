@@ -1,0 +1,10 @@
+project      = "demo"
+aws_region   = "ap-southeast-1"
+environment  = "stg"
+stack_name   = "30-data"
+state_bucket = "demo-tfstate-CHANGE_ME-ap-southeast-1"
+state_region = "ap-southeast-1"
+
+db_instance_class      = "db.r6g.large"
+db_multi_az            = true
+db_deletion_protection = true
